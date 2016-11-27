@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@admin.register(${1:Model})
+class ${1}Admin(admin.ModelAdmin):
+    ${2:pass}
+
+]]></content>
+    <tabTrigger>admin.ModelAdmin</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

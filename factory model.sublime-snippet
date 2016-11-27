@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+class ${1:Model}Factory(factory.django.DjangoModelFactory):
+
+    class Meta:
+        model = '$2.${1:Model}'
+
+]]></content>
+    <tabTrigger>factory model</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

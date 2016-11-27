@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1/(.+)/\L\1/g} = factory.SubFactory(${1:Model}Factory)
+]]></content>
+    <tabTrigger>admin_register</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+FACTORY_FOR = ${1:Model}
+]]></content>
+    <tabTrigger>factory for</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

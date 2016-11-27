@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+$1: DS.attr('${2:string}'),
+]]></content>
+  <description>DS.attr('...')</description>
+  <tabTrigger>DS.attr</tabTrigger>
+</snippet>

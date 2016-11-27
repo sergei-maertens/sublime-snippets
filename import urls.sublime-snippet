@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+from django.conf.urls import patterns, include, url
+
+
+urlpatterns = patterns('$1',
+    url(r'^${2:regex}/\$', $3, ${4:name=$5}),
+)
+]]></content>
+    <tabTrigger>import admin</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
